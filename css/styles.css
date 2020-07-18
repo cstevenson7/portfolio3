@@ -1,8 +1,12 @@
+ *{
+     font-family: Georgia, 'Times New Roman', Times, serif, sserif;
+ }
+ 
  .grid-wrapper{
      display:grid;
      width: 100vw;
      height: 100vh;
-     grid-template-columns: 1fr 1fr;
+     grid-template-columns: 1fr 2fr;
      grid-template-rows: 1fr ;
      grid-template-areas:
      "pictures  info"
@@ -11,10 +15,61 @@
 
  .pictures{
      grid-area: pictures;
-     background-color: antiquewhite;
+     border: 2px solid white;
+     background-color: white;
+ }
+
+ .name{
+     margin-bottom:4vh;
+     padding: 0;
+     background-color: #d9f526d8;
  }
 
  .info{
      grid-area: info;
-     background-color: aquamarine;
+     background-color: rgb(114, 113, 113);
  }
+
+ .info img{
+    margin:10vh 0vw 0vh 25vw;
+ }
+
+h1{
+    padding-top: 5vh;
+    text-align: center;
+    color:white; 
+}
+
+.info p{
+    padding-top: 1vh;
+    font-size:1.5em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    line-height: 170%;
+}
+
+.still{ 
+    margin: 8vh 0vw 0vh 25vw;
+    padding:0;
+    width: 15vw;
+    height: 3vw;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 25px; 
+    
+}
+
+.still a{
+    padding:0;
+    color: #d9f526d8;
+    margin: 1.5vh 0vw 0vh 1vw;
+      
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration:none;   
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+  }
+
+
