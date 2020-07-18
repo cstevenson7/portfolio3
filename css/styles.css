@@ -1,0 +1,20 @@
+ .grid-wrapper{
+     display:grid;
+     width: 100vw;
+     height: 100vh;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr ;
+     grid-template-areas:
+     "pictures  info"
+    
+ }
+
+ .pictures{
+     grid-area: pictures;
+     background-color: antiquewhite;
+ }
+
+ .info{
+     grid-area: info;
+     background-color: aquamarine;
+ }
