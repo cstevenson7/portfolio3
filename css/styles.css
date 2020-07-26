@@ -7,8 +7,8 @@
  
  .grid-wrapper{
      display:grid;
-     width: 100vw;
-     height: 100vh;
+     width: 100%;
+     height: 100%;
      grid-template-columns: 1fr 2fr;
      grid-template-rows: 1fr ;
      grid-template-areas:
@@ -29,34 +29,33 @@
      bottom: 40vh;
      height: 9vh;
      width: 11.5vw;
-     background-color: #d9f526b7;
+     background-color:#1de9169c;
  }
 
  div.first_name p{
     color: rgba(255, 255, 255, 0.829);
-    line-height: 85%;
-    font-family: 'brokenstick', Arial, sans-serif;
-    font-weight: 300;
-    font-style: italic;
+    line-height: 100%;
+    font-family:'dry_brush', Arial, sans-serif;
+   
+    text-transform: uppercase;
     font-size: 4.2em;
     letter-spacing: 1.5px; 
  }
 
  div.last_name{
-    position:relative;
-    left: 11.6vw; 
-    bottom: 47vh;
+    position:relative;    
+    left: 8vw; 
+    bottom: 45vh;
     height: 9vh;
-    width: 21vw;
-    background-color: #d9f526b7;
+    width: 24vw;
+    background-color:#1de9169c;
 
 }
 div.last_name p{
     color: rgba(255, 255, 255, 0.829);
-    line-height: 85%;
-    font-family: 'brokenstick', Arial, sans-serif;
-    font-weight: 300;
-    font-style: italic;
+    line-height: 120%;
+    font-family: 'dry_brush', Arial, sans-serif;
+    text-transform: uppercase;   
     font-size: 4.2em;
     letter-spacing: 1.5px; 
  }
@@ -64,11 +63,12 @@ div.last_name p{
  .info{
      grid-area: info;
      height: 100%;
-     background-color: rgb(114, 113, 113);
+     background-color: #443F3B;
+     
  }
 
  .info img{
-    margin:10vh 0vw 0vh 20vw;
+    margin:10vh 0vw 0vh 22vw;
  }
 
 h1{
@@ -88,41 +88,22 @@ h1{
     line-height: 170%;
 }
 
+
 @font-face {
-    font-family: 'brokenstick';
-    src: url('brokenstick.woff2') format('woff2'),
-         url('brokenstick.woff') format('woff');
+    font-family: 'dry_brush';
+    src: url('dry_brush.woff2') format('woff2'),
+         url('dry_brush.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-
-@font-face {
-    font-family: 'dry_brush-webfont';
-    src: url('dry_brush-webfont') format('woff2'),
-         url('dry_brush-webfont') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-/*
 .still{    
-    margin: 10vh 0vw 0vh 21vw;
+    margin: 10vh 0vw 0vh 25vw;
     padding:0;
-    width: 20vw;
-    height: 3vw;   
-    background-color:white;
-    border: 2px solid white;
-    border-radius: 25px;   
-}*/
-
-.still{    
-    margin: 10vh 0vw 0vh 21vw;
-    padding:0;
-    width: 13vw;
-    height:5vw;   
-    background-color: #d9f526b7;
+    width: 12vw;
+    height:3vw;   
+    background-color: #1de9169c;
 
 }
 
@@ -130,22 +111,15 @@ h1{
 text relative to the top left of the div.*/
 .still a{     
     position:relative;
-    top: 3vh;
+    top: 0vh;
     left: .8vw;
     color:rgba(255, 255, 255, 0.829);        
-    font-family:'brokenstick', Arial, sans-serif;
+    font-family:'dry_brush', Arial, sans-serif;
     font-weight:normal;
-    font-style: italic;    
+    text-transform: uppercase;     
     font-size: 30px;
     text-decoration:none;   
     letter-spacing: 1.5px; 
   }
-  div.first_name{
-    position:relative;
-    left: 20vw; 
-    bottom: 40vh;
-    height: 9vh;
-    width: 11.5vw;
-    background-color: #d9f526b7;
-}
+
 
