@@ -11,3 +11,66 @@ body{
     font-style: normal;
 
 }
+
+.grid-wrapper{
+    display:grid;
+    background-color:#443F3B;
+    width: 100vw;
+    height: 100vh;
+    /*make grid area cols add up to 3
+      make grid area rows add to to eight*/
+    grid-template-columns: 2fr 2fr 2fr; 
+    grid-template-rows: .5fr 2.5fr 2.5fr 2.5fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    grid-template-areas:
+    "header  header        header"
+    "bio     amazon        portfolio"
+    "bio     flask         javaSc"
+    "bio     dataAnalysis  project" 
+}
+.header{
+    
+    grid-column: 1 / span 3;
+    background-color: cadetblue; 
+}
+
+.bio{
+    margin-left: 1vw ;
+    margin-bottom: 1vw;
+    grid-row: 2 / span 3;
+    background-color:#f2fa88;
+    
+    
+}
+
+.amazon{
+    background-color: goldenrod;
+}
+
+.portfolio{
+    margin-right: 1vw;
+    background-color:#1de9169c;
+}
+
+.flask{
+    background-color: silver;
+
+}
+
+.javaSc{
+    margin-right: 1vw;
+    background-color: khaki;
+}
+
+.dataAnalysis{
+    
+    margin-bottom: 1vw;
+    background-color: dodgerblue;
+}
+
+.project{
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    background-color: turquoise;
+}
