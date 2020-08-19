@@ -112,7 +112,7 @@ text relative to the top left of the div.*/
 .still a{     
     position:relative;
     top: 0vh;
-    left: .8vw;
+    left: 3vw;
     color:rgba(255, 255, 255, 0.829);        
     font-family:'dry_brush', Arial, sans-serif;
     font-weight:normal;

@@ -105,21 +105,35 @@ text relative to the top left of the div.*/
 
 .amazon{
     margin-left: 1.5vw;
-    background-color: white
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img.logo-img1{
-    float:left;
-    
+    float:left;    
     vertical-align: top;
 }
 
-.portfolio{
+img.flask_img{
+    float:left;    
+    vertical-align: top;
+}
+
+
+
+.flask p{
     margin-right: 4vw;
     background-color:white;
+    font-size: .8em;
 }
 
 .flask{
+    margin-right: 4vw;
+    background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.portfolio{
     margin-left: 1.5vw;
     background-color: white;
 
