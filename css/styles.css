@@ -68,25 +68,31 @@ div.last_name p{
  }
 
  .info img{
-    margin:10vh 0vw 0vh 22vw;
+    margin:5vh 0vw 0vh 22vw;
+ }
+
+ h4{
+    margin-top: .5vh;
+    margin-bottom: 0vh;
+    text-align:center; 
+    color:rgba(255, 255, 255, 0.829);        
+    font-family: Georgia, 'Times New Roman', Times, serif, sserif;
+    font-size: 20px;
+    text-decoration:none;   
+    letter-spacing: 2px; 
+
  }
 
 h1{
-    padding-top: 5vh;
+    margin-top:10vh;
     text-align: center;
     font-size: 2.5em;
     line-height: 175%;
-    color:white; 
+    color:white;
+    margin-bottom:3vh;
 }
 
-.info p{
-    padding-top: 1vh;
-    font-size:1.5em;    
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:white;
-    line-height: 170%;
-}
+
 
 
 @font-face {
@@ -97,29 +103,46 @@ h1{
     font-style: normal;
 
 }
+.projects{
+    margin-top:15vh;
+    margin-left:13vw;
+    margin-bottom: 0vh;
+}
 
-.still{    
-    margin: 10vh 0vw 0vh 25vw;
-    padding:0;
+
+
+
+.still1{ 
+    display: inline-block;  
+    margin: 3vh 3vw 2vh;    
     width: 12vw;
     height:3vw;   
     background-color: #1de9169c;
-
 }
+
+
 
 /* position relative  specify the position of the 
 text relative to the top left of the div.*/
-.still a{     
-    position:relative;
+.still1 a{     
+    position:relative;    
     top: 0vh;
     left: 3vw;
     color:rgba(255, 255, 255, 0.829);        
     font-family:'dry_brush', Arial, sans-serif;
     font-weight:normal;
     text-transform: uppercase;     
-    font-size: 30px;
+    font-size: 25px;
     text-decoration:none;   
     letter-spacing: 1.5px; 
   }
+
+
+
+#js{
+ left:1.5vw;
+}
+
+
 
 
